@@ -1,0 +1,15 @@
+
+Interview Project ReadingIsGood
+
+Project is build with microservices in mind and consider to be used by other microservices or a frontend written in react or similar framework.
+Project is developed upon Spring Boot (and its sub helper packages) and utilises MongoDb as database. Also Lombok library is used for convenience and brevity.
+End product can be launched with regular java executable commands and with also maven's "spring-boot:run" goal.
+After launching the app you can navigate to "/swagger-ui/index.html" to check 'api end points' exposed by the app.
+
+-----Config-----
+Consider modifying the below parameters according to your system
+
+-application.properties
+    -spring.data.mongodb.database=*
+    -spring.data.mongodb.port=*
+    -spring.data.mongodb.host=*
